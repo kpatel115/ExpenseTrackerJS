@@ -1,0 +1,113 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+ background-color: rgb(248, 234, 213);
+
+}
+button{
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    color: aliceblue;
+    background-color: rgb(48, 62, 62);
+    border: 1px solid black;
+}
+
+
+nav {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: silver;
+    opacity: .8;
+    z-index: 2;
+  }
+
+  /* Mainly for Navigation Bar */
+  
+  @media screen and (max-width: 740px) {
+  
+    .nav-menu1 {
+      display: none;
+    }
+  
+    .nav-menu2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    #icons {
+      font-size: 1.2em;
+    }
+    
+    nav ul li {
+      font-size: 0.78em;
+      line-height: 2.8em;
+      list-style: none;
+      letter-spacing: 0.055em;
+      cursor: pointer;
+      transition: 0.4s ease-in-out;
+    }
+  
+    nav ul li:hover {
+      color: white;
+      transition: all 0.4s ease-in;
+    }
+  
+    li:first-of-type {
+      font-size: 1.1em;
+    }
+  }
+  /* Mainly for Navigation Bar  */
+  @media screen and (min-width:741px) {
+    .nav-menu1 {
+      display: flex;
+    }
+  
+    .nav-menu2 {
+      display: none;
+    }
+  
+    .nav-box {
+      max-width: 100%;
+      margin: 0% 10%;
+    }
+  
+    #icons {
+      font-size: 1.2em;
+    }
+  
+    .nav-menu1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+    }
+  
+    nav ul li {
+      font-size: 0.78em;
+      line-height: 2.8em;
+      list-style: none;
+      letter-spacing: 0.055em;
+      cursor: pointer;
+      transition: 0.4s ease-in-out;
+    }
+  
+    nav ul li:hover {
+      color: white;
+      transition: all 0.4s ease-in;
+    }
+  
+    li:first-of-type {
+      font-size: 1.1em;
+    }
+  
+  }
